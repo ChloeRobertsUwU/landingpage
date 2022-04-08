@@ -1,0 +1,50 @@
+body {margin: 0}
+
+.header {
+    display: flex;
+    
+    justify-content: space-between;
+    background-color: grey;
+    
+}
+
+.links {
+    display: flex;
+    list-style: none;
+    gap :16px;
+}
+
+
+.links{
+    display: flex;
+    gap: 16px;
+}
+
+.headerleft, .headerright {
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.logo {
+    display: flex;
+    width: 300px;
+}
+
+
+
+
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.cards {
+    justify-content: center;
+    display: flex;
+    margin: 18px;
+    gap: 18px;
+}
