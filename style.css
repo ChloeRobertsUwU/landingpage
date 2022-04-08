@@ -1,4 +1,9 @@
-body {margin: 0}
+body {
+    margin: 0;
+    font-family: 'Helvetica', sans-serif;
+    
+}
+
 
 .header {
     display: flex;
@@ -19,6 +24,8 @@ body {margin: 0}
 .links{
     display: flex;
     gap: 16px;
+    color:#E5E7EB;
+    font-size: 18px;
 }
 
 .headerleft, .headerright {
@@ -31,20 +38,34 @@ body {margin: 0}
     
 }
 
+
+
+
+.headerleft {
+    color: #F9FAF8
+}
+
 .logo {
     display: flex;
     width: 300px;
 }
 
+.headerlinktext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
 
 
-
+.headerlogo {
+    font-size: 24px;
+    
+}
 
 .card {
     display: flex;
     flex-direction: column;
     width: 200px;
-    
+    justify-content: flex-end;
     padding: 15px;
     
     
@@ -61,12 +82,19 @@ body {margin: 0}
     display: flex;
     flex-direction: column;
     align-items: center;
+    
+   
 }
 
+.legalservices {
+    font-size: 36px;
+    font-weight: 900;
+    color:#1F2937
+}
 
 .quote {
     display: flex;
-    background-color: lightgrey;
+    background-color: #E5E7EB;
     flex-direction: column;
     align-items: flex-end;
     margin: 0px;
